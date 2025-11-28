@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                <div class="library-option nav-option">
+                    <img src="./assets/library_icon.png" alt="">
+                    <a href="#"> Your library</a>
+              </div>
+              <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="lib-box">
+            <div class="box">
+                <p class="box-p-1">Create Your First Playlist</p>
+                <p class="box-p-2">It's easy,we'll help you</p>
+                <button class="badge">Create Playlist </button>
+             </div> 
+
+             <div class="box">
+                <p class="box-p-1">Let's find some podcast to follow</p>
+                <p class="box-p-2">we'll keep you updated on new episode</p>
+                <button class="badge">Browse podcast </button>
+             </div> 
+
+            </div>
+        </div>
+    </div>
+
+        <div class="main-content"> 
+            <div class="sticky-bar">
+                   <div class="left">
+                    <img src="./assets/backward_icon.png" class="hide" alt="return">
+                    <img src="./assets/forward_icon.png" alt="move ">
+                    <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="what do you want to play?">
+            </div>
+            </div>
+            
+                <div class="right">
+                    <button class="badge hide">Explore Premium </button>
+                <button class="badge ip"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                <i class="fa-regular fa-user"></i>
+                </div>
+                
+            </div>
+           
+                <div class="button">
+                    <button class="badge">All</button>
+                    <button class="badge non">Music</button>
+                    <button class="badge non">Podcast</button>
+                </div>
+                <h2>Recentky played</h2>
+                <div class="cards-container">
+                   <div class="cards">
+                     <img src="./assets/card1img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Lo-Fi Beats</p>
+                    <p class="card-info">yChill beats to relax, study, and focus......</p>
+                   </div> 
+                </div>
+
+                  <h2>India's Best</h2>
+                <div class="cards-container">
+                   <div class="cards">
+                     <img src="./assets/card2img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Peaceful Piano</p>
+                    <p class="card-info">soothing piano tunes for calm moments...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card3img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Workout Mix</p>
+                    <p class="card-info">High-energy tracks to keep you moving...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card4img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Chill Hits</p>
+                    <p class="card-info">your daily updates of most played tracks.....</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card5img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">RapCaviar</p>
+                    <p class="card-info">Easy vibes for your day and night...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card6img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">RapCaviar</p>
+                    <p class="card-info">The freshest rap hits, updated weekly...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card3img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Jazz Vibes</p>
+                    <p class="card-info">Smooth and relaxing modern jazz tunes......</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card2img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Bollywood Romance</p>
+                    <p class="card-info">Love songs straight from Bollywood hits....</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card6img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Jazz Vibes</p>
+                    <p class="card-info">Smooth and relaxing modern jazz tunes......</p>
+                   </div> 
+                </div>
+
+
+                  <h2>New Release</h2>
+                <div class="cards-container">
+                   <div class="cards">
+                     <img src="./assets/image.png" alt="card1" class="card-img">
+                    <p class="card-title">Peaceful Piano</p>
+                    <p class="card-info">soothing piano tunes for calm moments...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/image copy.png" alt="card1" class="card-img">
+                    <p class="card-title">Workout Mix</p>
+                    <p class="card-info">High-energy tracks to keep you moving...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/young-couple-listening-music-with-spotify-app.jpg" alt="card1" class="card-img">
+                    <p class="card-title">Chill Hits</p>
+                    <p class="card-info">your daily updates of most played tracks.....</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card5img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">RapCaviar</p>
+                    <p class="card-info">Easy vibes for your day and night...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card6img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">RapCaviar</p>
+                    <p class="card-info">The freshest rap hits, updated weekly...</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/young-woman-holding-tablet-with-spotify-app.jpg" alt="card1" class="card-img">
+                    <p class="card-title">Jazz Vibes</p>
+                    <p class="card-info">Smooth and relaxing modern jazz tunes......</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/side-view-woman-with-dyed-hair-listening-music-headphone-using-smart-phone.jpg" alt="card1" class="card-img">
+                    <p class="card-title">Bollywood Romance</p>
+                    <p class="card-info">Love songs straight from Bollywood hits....</p>
+                   </div> 
+
+                    <div class="cards">
+                     <img src="./assets/card2img.jpeg" alt="card1" class="card-img">
+                    <p class="card-title">Jazz Vibes</p>
+                    <p class="card-info">Smooth and relaxing modern jazz tunes......</p>
+                   </div> 
+                </div>
+
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+           
+        </div>
+
+
+
+        <div class="music-player">
+            <div class="part1">
+                <img src="./assets/card2img.jpeg" alt="">
+                <div class="song-info">
+                    <p class="song-title">Peaceful Piano</p>
+                    <div class="song-writter">David Kushner</div>
+                </div>
+                <div class="like">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-user-lock"></i>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="play-bar">
+                    <img src="./assets/player_icon1.png" class="player-control">
+                     <img src="./assets/player_icon2.png" class="player-control">
+                      <img src="./assets/player_icon3.png" class="player-control">
+                       <img src="./assets/player_icon4.png" class="player-control">
+                        <img src="./assets/player_icon5.png" class="player-control">
+                </div>
+                <div class="time">
+                    <span class="current-time">00:00</span>
+                    <input type="range" class="progress-bar" value="0" min="0" max="100" >
+                    <span class="total-time">10.34</span>
+                </div>
+            </div>
+            <div class="part3">
+                <i class="fa-regular fa-headphones"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-bars-staggered"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <div class="volume">
+                    <i class="fa-light fa-phone-volume"></i>
+                    <input type="range" class="progress-bar" value="0" min="0" max="100" >
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
